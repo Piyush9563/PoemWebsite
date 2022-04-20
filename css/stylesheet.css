@@ -1,0 +1,59 @@
+{
+margin:0;
+padding:0;
+}
+header {
+              background-image: url(../book.jpg );
+             height:100%;
+             background-size:cover;
+             background-position:center;
+
+}
+ul{
+float:right;
+list-style-type:none;
+top: 100px;
+}
+ul li{
+display:inline-block;
+}
+ul li a{
+text-decoration:none;
+color:#fff;
+padding:5px 20px;
+border:1px solid white;
+transition: 0.6ease;
+}
+ul li a:hover{
+background-color: #fff;
+color:#000;
+}
+.title{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.title h1{
+color:#fff;
+}
+.sign-up-form{
+width:300px;
+font-size:14px;
+border radius:10px;
+box-shadow:0 0 3px 0 rgba(0,0,0,0.5);
+background-color:rgba(0,0,0,0.5);
+color:#fff;
+padding:0px;
+margin:8% auto 0;
+text-allign:center;
+}
+form#signup{
+     margin: 40px; 
+}
+p{
+color:#fff;
+}
+
+
+

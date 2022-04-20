@@ -1,0 +1,40 @@
+{
+padding:0;
+margin:0;
+font-family:' Josefin Sans,sans-serif';
+box-sizing:bordrer-box;
+}
+.logo{
+margin:left;
+border-radius: 80px;
+}
+header {
+              background-image: url(../gh.png );
+             height:100%;
+             background-size:cover;
+             background-position:center;
+
+}
+ul{
+float:right;
+list-style-type:none;
+}
+h1{
+text-align: center;
+color:white;
+}
+ul li{
+display:inline-block;
+}
+ul li a{
+text-decoration:none;
+color:white;
+padding:5px 20px;
+border:1px solid grey;
+transition: 0.6ease;
+justify-content:space-around;
+}
+ul li a:hover{
+background-color: #fff;
+color:#000;
+}

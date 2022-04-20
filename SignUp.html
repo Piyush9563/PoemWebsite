@@ -1,0 +1,57 @@
+<html>
+<link rel ="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+<header>
+<div class="main">
+<div class="logo">
+<img src="lo.jfif" width =80 height=80>
+<ul>
+<li><a href ="home.html">Home</a></li>
+<li><a href ="category.html">Category</a></li>
+<li><a href ="SignUp.html">Signup</a></li>
+</ul>
+</div>
+<div class ="sign-up-form">
+<h1>Sign UP</h1>
+<form>
+<label>Full name:</label>
+<input type="textfield"   name="tb1" placeholder="Full Name" id="fullname"><br>
+<br>
+<label> Password :</label>
+<input type="password"  name="pwd"  placeholder="Password"id="pwd"><br>
+<br>
+<label>Address :</label>
+<textarea cols="20" rows="1" placeholder="Address" ></textarea><br><br>
+<br>
+<label>Gender :</label>
+<input type="radio"name="rb1">MALE
+<input type="radio"name="rb1">FEMALE<br>
+<br>
+
+<button onclick="myFunction()">Sign up</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("You Have Signed in")) {
+    txt = "You Have Signed in";
+  }
+else{
+  txt="You have not sign in";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+</form>
+</body>
+</html>
+</div>
+</div>
+</div>
+</header>
+</body>
+</html>
+</html>
